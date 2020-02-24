@@ -2,14 +2,6 @@
 __Red Hat® Ansible Certified Content for IBM Z__ provides the ability to connect IBM Z® to clients' wider enterprise automation strategy through the Ansible Automation Platform ecosystem. The __Red Hat Ansible Certified Content for IBM Z core collection__ (`ibm_zos_core`) enables development and operations to automate on Z by providing Ansible support for tasks such as creating data sets, submitting jobs, querying jobs, and retrieving job output.  
 
 # Features
-The __Red Hat Ansible Certified Content for IBM Z core collection__ `ibm_zos_core` includes [connection plugins](plugins/connection/), [action plugins](plugins/action/), [modules](plugins/modules/), [sample playbooks](playbooks/), and ansible-doc to automate tasks on Z.  
-
-These features enable a seamless, unified workflow orchestration with configuration management, provisioning, and application deployment in one easy-to-use platform. 
-
-# Plugins
-
-## Action
-* [normal](docs/README-zos-rexx-connection-plugin.md): A fork of [Ansible _normal.py_ action plugin](https://github.com/ansible/ansible/blob/devel/lib/ansible/plugins/action/normal.py) that is modified to allow a conditional shebang line in REXX modules.
 * [zos_job_submit](docs/README-zos-job-submit.md): Used to submit a job from the controller and optionally monitor for completion.  
 
 ## Connection
