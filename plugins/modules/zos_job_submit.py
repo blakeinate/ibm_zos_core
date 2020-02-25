@@ -388,7 +388,7 @@ def copy_rexx_and_run(script,src,vol,module):
     rc, stdout, stderr = module.run_command(['./' + scriptName, src, vol], cwd=pathName)
     return rc, stdout, stderr
 
-def get_job_info(module, jobId, return_output):
+def get_job_info(module, jobId, return_output=True):
     result = dict()
     try:
         output = query_jobs_status(jobId)
