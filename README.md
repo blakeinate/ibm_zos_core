@@ -2,7 +2,6 @@
 
 The IBM Z core collection, referred to as `ibm_zos_core`, is part of the broader offering __Red Hat® Ansible Certified Content for IBM Z__. `ibm_zos_core` supports tasks such as creating data sets, submitting jobs, querying jobs, and retrieving job output.  
 
-# Red Hat Ansible Certified Content for IBM Z
 __Red Hat® Ansible Certified Content for IBM Z__ provides the ability to connect IBM Z® to clients' wider enterprise 
 automation strategy through the Ansible Automation Platform ecosystem. This enables development and operations automation on Z through a seamless, unified workflow orchestration with configuration management, provisioning, and 
 application deployment in one easy-to-use platform.  
